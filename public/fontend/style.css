@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Inter' !important;
+}
+.nav-link{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+color: #0D0A19;
+margin-left: 20px;
+}
+
+
+.section1 h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+/* or 116% */
+
+text-align: center;
+letter-spacing: -0.304762px;
+
+color: #FFFFFF;
+padding-top: 100px;
+}
+
+.section1 p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* or 135% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 10px;
+}
+.topfooter{
+    background: #FFFFFF;
+box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+border-radius: 8px;
+max-width: 945px;
+height: 80px;
+position: absolute;
+margin: 0px auto;
+bottom: 10px;
+left: 50%;
+z-index: 99;
+width: 98%;
+transform: translateX(-50%)
+}
+#aboutus{
+    margin-top: 30px;
+}
+
+  #aboutus::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    bottom: 30px;
+    left: calc(50% - 25px);
+    background: rgb(27, 189, 54);
+}
+
+
+#service{
+    margin-top: 30px;
+}
+
+#service::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    bottom: -385px;
+    left: calc(50% - 25px);
+    background: rgb(27, 189, 54);
+}
